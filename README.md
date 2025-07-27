@@ -52,7 +52,7 @@ Run as Python script:
 
 **WARNING**: If you are not in the `.venv` when installing requirements you may accidently install the requirements globally!
 
-If you receive a `proxy/proxies` error, this means you did not run the app from the `.venv` after installing requirements in it.
+If you receive a `proxy/proxies` error, this means you did not run the app from the `.venv` after installing requirements in it OR it means requirements were not installed.
 
 If you are worried about editing Songs in place, copy Songs into the cloned folder of this project instead of cloning to the Clone Hero folder. Then when you are done DLing videos copy back and delete the extra left behind Songs folder.
 

@@ -60,6 +60,6 @@ Conversion info is dependent on what Clone Hero allows in their code for videos,
 
 ### Credits
 
-> Original Creator: [jshackles](https://github.com/jshackles)
+> Original Creators: [jshackles](https://github.com/jshackles) , [stripedew](https://github.com/stripedew/) , [nreichen](https://github.com/nreichen)
 
 > Refactored Code: [Event-Horizon](https://github.com/Event-Horizon)

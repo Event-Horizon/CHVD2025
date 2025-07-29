@@ -6,11 +6,11 @@
 > 
 > a simple application that allows you to automatically download the top YouTube video result for songs in your Clone Hero library.
 
-### Disclaimer
+## Disclaimer
 
 This software is provided "as-is," without any warranties or guarantees of any kind. The author shall not be held responsible or liable for any damages, losses, or issues arising from the use or inability to use this software, including but not limited to data loss, system crashes, or any other consequences. Use this software at your own risk.
 
-### App Description
+## App Description
 Clone Hero recognises `video.mp4` file in every song folder as the video to play in the background of the song chart. 
 
 1. This program recursively runs through your Clone Hero songs folder to find songs that are missing this `video.mp4` file. 
@@ -33,15 +33,15 @@ A progress bar is provided to indicate how many videos still need to be download
 
 This program has also been designed to run multiple times on the same songs directory. If you add new songs to Clone Hero, simply re-run the program and it will only download the videos that are missing. Should any songs run into errors, this will be displayed once the program has finished running.
 
-### Usage
+## Usage
 
-## Run with BASH:
+### Run with BASH:
 
 ```bash 
 bash run_videodownload.sh
 ```
 
-## Run with POWERSHELL:
+### Run with POWERSHELL:
 
 ```powershell 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -49,7 +49,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\run_videodownload.ps1
 ```
 
-## Run as PYTHON script:
+### Run as PYTHON script:
 1. Clone this repository into your Clone Hero directory, one level above your Songs folder:
     ```bash
     /home/Event-Horizon/.clonehero/VideoDownload.py
@@ -62,9 +62,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 5. Install required dependencies from requirements.txt: ```python install -r requirements.txt```
 6. Run VideoDownload.py ```python VideoDownload.py```
 
-### Notes/FAQ
+## Notes/FAQ
 
-**WARNING**: If you are not in the `.venv` when installing requirements you may accidently install the requirements globally!
+### **WARNING**: If you are not in the `.venv` when installing requirements you may accidently install the requirements globally!
 
 If you receive a `proxy/proxies` error, this means you did not run the app from the `.venv` after installing requirements in it OR it means requirements were not installed.
 

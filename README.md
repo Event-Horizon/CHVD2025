@@ -35,7 +35,21 @@ This program has also been designed to run multiple times on the same songs dire
 
 ### Usage
 
-Run as Python script:
+## Run with BASH:
+
+```bash 
+bash run_videodownload.sh
+```
+
+## Run with POWERSHELL:
+
+```powershell 
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+.\run_videodownload.ps1
+```
+
+## Run as PYTHON script:
 1. Clone this repository into your Clone Hero directory, one level above your Songs folder:
     ```bash
     /home/Event-Horizon/.clonehero/VideoDownload.py
@@ -57,6 +71,8 @@ If you receive a `proxy/proxies` error, this means you did not run the app from 
 If you are worried about editing Songs in place, copy Songs into the cloned folder of this project instead of cloning to the Clone Hero folder. Then when you are done DLing videos copy back and delete the extra left behind Songs folder.
 
 Conversion info is dependent on what Clone Hero allows in their code for videos, if it changes this must get updated.
+
+Updated with some scripts to make running this a little less painful for users. - Event-Horizon 7/28/25
 
 ### Credits
 
